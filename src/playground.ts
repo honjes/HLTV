@@ -1,4 +1,4 @@
-// import HLTV from './index'
+import HLTV from './index'
 // HLTV.getMatch({ id: 2332676 })
 //   .then(res => console.dir(res, { depth: null }))
 //   .catch(err => console.log(err))
@@ -30,5 +30,6 @@
 // HLTV.getPlayerByName({ name: 'chrisJ' }).then(res => console.log(res)).catch(err => console.log(err))
 // HLTV.getEvent({id: 3773}).then(res => console.dir(res, { depth: null })).catch(err => console.log(err))
 // HLTV.getEvents().then(res => console.dir(res, { depth: null })).catch(err => console.log(err))
+HLTV.getEventStats({id: 5277}).then(res => console.dir(res, { depth: null })).catch(err => console.log(err))
 // HLTV.getResults({pages: 1, eventId: 3883}).then(res => console.log(res))
 // HLTV.getPlayerStats({ id: 12398 }).then(res => console.dir(res, { depth: null })).catch(err => console.log(err))
